@@ -7,7 +7,7 @@ def get_hsv(event, x, y, flags, param):
         print(f'Valor HSV en la posición ({x}, {y}): {hsv_value}')
 
 # Cargar la imagen
-image = cv2.imread('rojo.png')
+image = cv2.imread('naranjano.png')
 
 # Convertir la imagen de BGR a HSV
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
